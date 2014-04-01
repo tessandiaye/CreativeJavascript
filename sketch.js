@@ -20,8 +20,8 @@ linesballs();
 
 //LINES  
 function linesballs() { 
-  line(420, 0, 420, 900);
-  line(920, 0, 920, 900);
+  line(400, 0, 400, 900);
+  line(1100, 0, 1100, 900);
   fill(0);
   ellipse(135, circleY, 20, 20);
   ellipse(505, circleY, 20, 20);
