@@ -8,7 +8,7 @@ function setup() {
   circleY=0;
   colorMode(HSB);
   fill(0);
-  text ("STAY HERE", 20, 20);
+  text ("STAY HERE", 20, 400);
 
 }
 
@@ -29,7 +29,7 @@ function linesballs() {
   ellipse(1075, circleY, 20, 20);
   ellipse(242, circleY, 20, 20);
   ellipse(1198, circleY, 20, 20);
-  circleY=circleY+0.4;
+  circleY=circleY+1;
 }
 
 
