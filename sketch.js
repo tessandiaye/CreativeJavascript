@@ -7,6 +7,8 @@ function setup() {
   background(200);
   circleY=0;
   colorMode(HSB);
+  fill(0);
+  text ("STAY HERE", 20, 20);
 
 }
 
@@ -20,13 +22,13 @@ linesballs();
 
 //LINES  
 function linesballs() { 
-  line(300, 0, 300, 900);
-  line(1300, 0, 1300, 900);
+  line(350, 0, 350, 900);
+  line(1090, 0, 1090, 900);
   fill(0);
-  ellipse(135, circleY, 20, 20);
-  ellipse(505, circleY, 20, 20);
-  ellipse(15, circleY, 20, 20);
-  ellipse(625, circleY, 20, 20);
+  ellipse(365, circleY, 20, 20);
+  ellipse(1075, circleY, 20, 20);
+  ellipse(242, circleY, 20, 20);
+  ellipse(1198, circleY, 20, 20);
   circleY=circleY+0.4;
 }
 
@@ -47,13 +49,13 @@ function triangles() {
     //right side
     //add another repeat line
     //for(int i=0; 
-    triangle(100, y+20, 90, y, 110, y);
-    triangle(70, y+20, 60, y, 80, y);
-    triangle(40, y+20, 30, y, 50, y);
+    triangle(330, y+20, 320, y, 340, y);
+    triangle(300, y+20, 290, y, 310, y);
+    triangle(270, y+20, 260, y, 280, y);
     //left side
-    triangle(540, y+20, 530, y, 550, y);
-    triangle(570, y+20, 560, y, 580, y);
-    triangle(600, y+20, 590, y, 610, y);
+    triangle(1110, y+20, 1100, y, 1120, y);
+    triangle(1140, y+20, 1130, y, 1150, y);
+    triangle(1170, y+20, 1160, y, 1180, y);
   }
 }
 
