@@ -8,7 +8,7 @@ function setup() {
   circleY=0;
   colorMode(HSB);
   fill(0);
-  text ("STAY HERE", 20, 400);
+  text ("STAY HERE", 10, 350);
 
 }
 
