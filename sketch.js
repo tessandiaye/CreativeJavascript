@@ -6,7 +6,8 @@ function setup() {
   createCanvas( 1440, 900);
   background(200);
   circleY=0;
-  colorMode(HSB);
+  //colorMode(HSB);
+  colorMode(RGB);
   fill(0);
   text ("WAIT HERE", 10, 400);
 
@@ -37,7 +38,8 @@ function linesballs() {
 function circles() {  
   for (var i=0; i<100; i++) {
     var r=random(50);
-    fill(255, 255, 255);
+   // fill(255, 255, 255);
+    fill(col, 255, 255);
     ellipse(720, i*40, width/2, mouseX+r);
     //320 mouseX+r
   }
