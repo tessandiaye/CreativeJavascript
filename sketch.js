@@ -6,7 +6,7 @@ function setup() {
   createCanvas( 1440, 900);
   background(200);
   circleY=0;
-  //colorMode(HSB);
+  colorMode(HSB);
   //colorMode(RGB);
   fill(0);
   text ("WAIT HERE", 10, 400);
