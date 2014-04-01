@@ -36,7 +36,7 @@ function circles() {
   for (var i=0; i<100; i++) {
     var r=random(50);
     fill(255, 255, 255);
-    ellipse(720, i*40, width/1.65, mouseX+r);
+    ellipse(720, i*40, width/2, mouseX+r);
     //320 mouseX+r
   }
 }
