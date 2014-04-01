@@ -9,7 +9,7 @@ function setup() {
   colorMode(HSB);
   //colorMode(RGB);
   fill(0);
-  text ("WAIT HERE.", 10, 400);
+  text ("NO, WAIT HERE.", 10, 400);
 
 }
 
