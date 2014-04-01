@@ -9,13 +9,13 @@ function setup() {
   colorMode(HSB);
   //colorMode(RGB);
   fill(0);
-  text ("WAIT HERE", 10, 400);
+  text ("WAIT HERE.", 10, 400);
 
 }
 
 // a selective background underneath the balls
 function draw() {
-linesballs();
+  linesballs();
   circles();
   triangles();
 
@@ -36,8 +36,9 @@ function linesballs() {
 
 //CIRCLES
 function circles() {  
-  for (var i=0; i<100; i++) {
-  fill(255, 255, 255);
+   for (var i=0; i<100; i++) {
+   var r=random(50);
+   fill(255, 255, 255);
    // fill(col, 255, 255);
     ellipse(720, i*40, width/2, mouseX+r);
   
