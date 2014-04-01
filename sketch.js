@@ -58,7 +58,7 @@ function triangles() {
 }
 
 function mousePressed() {
-  col+=70;
+  col+=20;
   col%=255;
   //println(col);
 }
