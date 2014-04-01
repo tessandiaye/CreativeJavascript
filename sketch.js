@@ -3,7 +3,7 @@ var col = 0;
 
 function setup() {
 
-  createCanvas(1300, 800);
+  createCanvas( 1440, 900);
   background(200);
   circleY=0;
   colorMode(HSB);
